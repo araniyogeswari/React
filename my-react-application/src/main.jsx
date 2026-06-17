@@ -1,9 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Classic from "./Classic.jsx";
+import JSX from "./Events.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Classic />
-  </StrictMode>
+    <JSX></JSX>
+  </StrictMode>,
 );
